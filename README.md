@@ -18,3 +18,13 @@ This repository contains my solutions to **competitive programming problems** fr
   - Implementation-based problems
 
 ---
+Goals
+
+Solve problems consistently and improve problem-solving speed.
+
+Strengthen understanding of core algorithms and data structures.
+
+Reach higher difficulty levels on competitive programming platforms.
+
+Build a structured archive of well-written and optimized solutions.
+Happy Coding!
