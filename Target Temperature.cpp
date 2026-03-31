@@ -3,7 +3,6 @@
 #include <algorithm>
 
 using namespace std;
-
 void solve() {
     int n;
     cin >> n;
@@ -19,10 +18,7 @@ void solve() {
     }
 
     sort(b.begin(), b.end());
-    
     bool possible = true;
-    
-    // Check for duplicates strictly less than max_val
     for (int i = 0; i < n - 1; i++) {
         if (b[i] == b[i + 1] && b[i] < max_val) {
             possible = false;
@@ -38,7 +34,6 @@ void solve() {
 }
 
 int main() {
-    // Fast I/O for performance
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
