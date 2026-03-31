@@ -20,15 +20,13 @@ void solve() {
     }
     
     int max_tastiness = 0;
-    
-    // Check every possible pair of items
+
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
-            // Determine the prices of the two chosen items
+
             int max_price = max(a[i], a[j]);
             int min_price = min(a[i], a[j]);
-            
-            // Calculate the discount on the more expensive item
+
             int discount = min(max_price / 2, 100);
             
             // Calculate total cost after discount
