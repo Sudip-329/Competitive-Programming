@@ -11,15 +11,13 @@ void solve() {
     vector<int> b(n);
     int max_val = 0;
     
-    // Read the array and find the maximum temperature target
     for (int i = 0; i < n; i++) {
         cin >> b[i];
         if (b[i] > max_val) {
             max_val = b[i];
         }
     }
-    
-    // Sort the array to easily find duplicates
+
     sort(b.begin(), b.end());
     
     bool possible = true;
