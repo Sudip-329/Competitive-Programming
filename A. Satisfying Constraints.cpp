@@ -30,11 +30,9 @@ void solve() {
         cout << 0 << "\n";
         return;
     }
-    
-    // Calculate total valid integers in the [L, R] range
+
     long long ans = R - L + 1;
-    
-    // Remove the explicitly forbidden values that fall within our valid range
+
     for (long long x : not_equal) {
         if (x >= L && x <= R) {
             ans--;
