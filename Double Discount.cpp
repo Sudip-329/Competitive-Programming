@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -43,7 +42,6 @@ void solve() {
 }
 
 int main() {
-    // Optimize standard I/O operations for performance
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
