@@ -28,10 +28,8 @@ void solve() {
 
             int discount = min(max_price / 2, 100);
             
-            // Calculate total cost after discount
             int total_cost = min_price + (max_price - discount);
             
-            // If it fits the budget, update max_tastiness
             if (total_cost <= k) {
                 max_tastiness = max(max_tastiness, b[i] + b[j]);
             }
